@@ -23,7 +23,6 @@ main {
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
     margin-bottom: 1.5em;
     padding: 1.3em;
-    /* height: 222px; */
 }
 h1, h2 {
     font-size: 24px;
@@ -79,4 +78,45 @@ img {
 }
 .attribution {
     display: none;
+}
+
+/* desktop view */
+@media only screen and (min-width: 500px){
+    main {
+        max-width: 1100px;
+    }
+    #text {
+        /* margin-top: -19em; */
+    }
+    #cardholder {
+        display: flex;
+        flex-direction: row;
+    }
+    .card {
+        width: 350px;
+        height: 250px;
+        margin-right: 2em;
+    }
+    h1, h2 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        margin: 0;
+    }
+    p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+    }
+    #super {
+
+    }
+    #team {
+        /* margin-top: -5em; */
+    }
+    #karma {
+        
+    }
+    #calculator {
+    }
 }
