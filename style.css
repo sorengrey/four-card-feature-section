@@ -83,14 +83,17 @@ img {
 /* desktop view */
 @media only screen and (min-width: 500px){
     main {
-        max-width: 1100px;
+        width: 100%;
+        max-width: 1500px;
     }
     #text {
-        /* margin-top: -19em; */
+        margin: -12em auto auto auto;
+        max-width: 540px;
     }
     #cardholder {
         display: flex;
         flex-direction: row;
+        margin: auto;
     }
     .card {
         width: 350px;
@@ -109,14 +112,13 @@ img {
         margin: 0;
     }
     #super {
-
-    }
-    #team {
-        /* margin-top: -5em; */
+        margin: 6em 2em 0 0;
     }
     #karma {
-        
+        position: absolute;
+        margin: 17em 0 0 24em;
     }
     #calculator {
+        margin: 6em 0 0 0;
     }
 }
