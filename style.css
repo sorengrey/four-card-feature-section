@@ -37,7 +37,7 @@ h2 {
     font-weight: 600;
     margin-top: 0;
 }
-h3 {
+.text p {
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
@@ -64,16 +64,16 @@ img {
     margin: 1.8em .3em 0 0;
     float: right;
 }
-#super {
+.super {
     border-top: 3.55px solid #44d3d2;
 }
-#team {
+.team {
     border-top: 3.55px solid #ea5454;
 }
-#karma {
+.karma {
     border-top: 3.55px solid #fcae4a;
 }
-#calculator {
+.calculator {
     border-top: 3.55px solid #549ef2;
 }
 .attribution {
@@ -86,14 +86,15 @@ img {
         width: 100%;
         max-width: 1500px;
     }
-    #text {
+    .text {
         margin: -12em auto auto auto;
         max-width: 540px;
     }
-    #cardholder {
+    .cardholder {
         display: flex;
         flex-direction: row;
         margin: auto;
+        width: 1110px;
     }
     .card {
         width: 350px;
@@ -111,14 +112,14 @@ img {
         line-height: 25px;
         margin: 0;
     }
-    #super {
+    .super {
         margin: 6em 2em 0 0;
     }
-    #karma {
+    .karma {
         position: absolute;
         margin: 17em 0 0 24em;
     }
-    #calculator {
+    .calculator {
         margin: 6em 0 0 0;
     }
 }
