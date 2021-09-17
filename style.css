@@ -78,7 +78,7 @@ img {
 }
 
 /* desktop view */
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 600px){
     main {
         width: 100%;
         max-width: 1500px;
@@ -93,20 +93,17 @@ img {
         grid-template-rows: repeat(3, 1fr);
         width: 1110px;
         height: 530px;
-        margin: 1rem auto;
+        margin: 0 auto;
         gap: 20px;
     }
     .card {
         width: 350px;
         height: 250px;
     }
-    h1 {
+    h1, span {
         font-size: 36px;
         line-height: 54px;
         letter-spacing: 0.25px;
-        margin: 0;
-    }
-    span{
         margin: 0;
     }
     .text p {
