@@ -97,11 +97,6 @@ img {
         letter-spacing: 0.25px;
         margin: 0;
     }
-    h2 {
-        font-size: 13px;
-        line-height: 23px;
-        letter-spacing: 0.09px;
-    }
     .cardholder {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -117,8 +112,9 @@ img {
         padding: 1.5em;
     }
     p {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.09px;
         margin: 0;
     }
     img {
