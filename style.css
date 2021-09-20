@@ -43,7 +43,7 @@ span {
     opacity: 0.5;
     margin-bottom: 4.5em;
 }
-h3{
+h2{
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -97,7 +97,7 @@ img {
         letter-spacing: 0.25px;
         margin: 0;
     }
-    h3 {
+    h2 {
         font-size: 13px;
         line-height: 23px;
         letter-spacing: 0.09px;
